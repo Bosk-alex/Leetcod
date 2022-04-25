@@ -1,5 +1,7 @@
 package data_structure.day_8;
 
+import data_structure.data_classes.ListNode;
+
 public class ReverseLinkedList {
     public ListNode reverseList(ListNode head) {
         if (head != null && head.next != null) {
@@ -17,19 +19,5 @@ public class ReverseLinkedList {
             head = current;
         }
         return head;
-    }
-
-    static class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode(int val) {
-            this(val, null);
-        }
-
-        public ListNode(int val, ListNode node) {
-            this.val = val;
-            next = node;
-        }
     }
 }

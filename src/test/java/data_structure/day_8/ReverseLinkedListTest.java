@@ -1,8 +1,8 @@
 package data_structure.day_8;
 
+import data_structure.data_classes.ListNode;
 import org.junit.jupiter.api.Test;
 
-import static data_structure.day_8.ReverseLinkedList.*;
 import static org.junit.jupiter.api.Assertions.*;
 
 class ReverseLinkedListTest {
